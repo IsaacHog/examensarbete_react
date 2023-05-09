@@ -1,0 +1,54 @@
+.App {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+  
+  .App-button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+  
+  .App-button {
+    padding: 1em 2em;
+    font-size: 1.5em;
+    border-radius: 0.5em;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .App-button-blue {
+    background-color: blue;
+  }
+  
+  .App-button-green {
+    background-color: green;
+  }
+  
+  .App-button-red {
+    background-color: red;
+  }
+  
