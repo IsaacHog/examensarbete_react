@@ -51,4 +51,46 @@
   .App-button-red {
     background-color: red;
   }
+
+  .App-form {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+  }
+  
+  .App-input {
+    margin-right: 16px;
+  }
+  
+  .App-input label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .App-input input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .App-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .App-button button {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007aff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .App-button button:hover {
+    background-color: #0062cc;
+  }
+  
   

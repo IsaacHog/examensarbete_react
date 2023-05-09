@@ -45,7 +45,7 @@ const MyFancyForms: React.FC<FormProps> = ({ numForms }) => {
     forms.push(
       <Box key={i} borderWidth="1px" borderRadius="lg" overflow="hidden" p="4">
         <form onSubmit={handleFormSubmit}>
-          <FormInput label={`Input ${i}`} onChange={(value) => handleInputChange(i, value)} />
+          <FormInput label='Input' onChange={(value) => handleInputChange(i, value)}/>
           <Flex justify="flex-end">
             <Button type="submit" mt={4} colorScheme="teal">
               Submit
