@@ -1,4 +1,4 @@
-# js_v_react_examensarbete
+# examensarbete_react
 
 Examensarbete för min gymnasieingenjörsutbildning. 
 
