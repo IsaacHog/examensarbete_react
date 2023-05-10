@@ -20,7 +20,7 @@ const FormInput: React.FC<FormInputProps> = ({ label, placeholder, type = 'text'
   return (
     <Box>
       <label>{label}</label>
-      <input type={type} placeholder={placeholder} value={value} onChange={handleInputChange} />
+      <input type={type} placeholder={placeholder} value={value} onChange={handleInputChange} style={{ color: 'black' }} />
     </Box>
   );
 };
